@@ -35,3 +35,50 @@ if(z > a){
     b = a
 }
 console.log(b);
+
+//6
+
+let animals = [];
+console.log("The value of my array will be: []");
+console.log(animals);
+animals = ["Cat", "Cow", "Horse"];
+console.log(animals);
+animals.push("baby pig");
+console.log(animals);
+
+//7
+
+let myString = "this is a test";
+console.log(myString);
+console.log(myString.length);
+
+//8
+let r = 1;
+let e ="hi";
+let w = true;
+let q = null;
+console.log(r);
+console.log(e);
+console.log(w);
+console.log(q);
+console.log("Data type of variable r is: a number");
+console.log("Data type of variable r is: a string");
+console.log("Data type of variable r is: a boolean");
+console.log("Data type of variable r is: a object");
+console.log(typeof r);
+console.log(typeof e);
+console.log(typeof w);
+console.log(typeof q);
+
+if(typeof r == typeof e){
+    console.log("SAME TYPE");
+}
+if(typeof w == typeof q){
+    console.log("SAME TYPE");
+}
+if(typeof e == typeof w){
+    console.log("SAME TYPE");
+}
+if(typeof q == typeof e){
+    console.log("SAME TYPE");
+}
