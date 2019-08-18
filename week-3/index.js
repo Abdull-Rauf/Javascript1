@@ -43,3 +43,36 @@ let vehicleType = (color, code) => {
     }
 }
 vehicleType("blue", 2);
+
+//5
+
+3 === 4 ? console.log("Yes") : console.log("No");
+
+//6
+let vehicle = (color, code, age) => { 
+    if (age>1){
+            if(code==1){
+            console.log ("a "+ color +" "+ "used "+ "car")
+             } else if (code == 2){
+            console.log ("a "+ color +" "+ "used "+ "motorbike")   
+            }else{
+
+            }
+        
+    }else if(age<=1){
+            if(code==1){
+            console.log ("a "+ color +" "+ "new "+ "car")
+            } else if (code == 2){
+                console.log ("a "+ color +" "+ "new "+ "motorbike")   
+            }else{
+            console.log ("a "+ color +" "+ "new "+ "bike") 
+            }
+    }
+
+}
+vehicle("blue",1,5);
+
+let vehicleList = ["motorbike", "caravan", "bike"];
+console.log(vehicleList[2]);
+
+vehicle("Green",3 ,1);
